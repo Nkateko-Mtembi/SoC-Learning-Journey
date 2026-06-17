@@ -23,7 +23,7 @@ Investigate a Windows Event and determine whether this was a failed logon attemp
   which signifies that the specified user account does not exist.
 
   The attempts originate from localhost::1, this suggests that the authentication requests were locally generated
-  rather than remote external source.
+  rather than from a remote external source.
 
   Futher investigation is recommended to determine whether these events were caused by user error, misconfigured software, scheduled tasks
   or unauthorized account enumeration activity.
