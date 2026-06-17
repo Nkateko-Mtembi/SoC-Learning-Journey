@@ -20,7 +20,7 @@ Investigate a Windows Event and determine whether this was a failed logon attemp
   No successful logon attempt was observed from this IP.
 
   An analysis of security event ID 4625 indicates failed logon attempts with status 0xc000006d and subStatus 0xc0000064,
-  suggesting that the specified user account does not exist.
+  which signifies that the specified user account does not exist.
 
   The attempts originate from localhost::1, this suggests that the authentication requests were locally generated
   rather than remote external source.
